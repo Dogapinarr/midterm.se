@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="vize.css">
+    <script src="vize.js"></script>
+  
+</head>
+<header>
+    <div>
+        <ul>
+            <li><a href="empty.html" target="_blank">Home</a></li>
+            <li><a href="empty.html" target="_blank">Categories</a></li>
+            <li><a href="empty.html" target="_blank">About</a></li>
+            <li><a href="empty.html" target="_blank">Contact</a></li>
+        </ul>
+    
+        <div style="height: 1000px; ">
+            
+        </div>
+    
+    </div>
+    
+        </header>
+
+<body>  
+ 
+    <form action="#" id="Form" method="post" onsubmit="validateForm()">
+
+<div style="font-weight: bolder ;">EDUCATION APPOINTMENT FORM</div>
+<br>
+            <div class="Labels" >
+            <label for="title"></label>
+            <input style="font-size: 12px;" type="text" id="title" placeholder="Title" required>
+            
+            <label for="name"></label>
+            <input style="font-size: 12px;" type="text" id="name" placeholder="Your Name" required>
+    
+            <label for="email"></label>
+            <input style="font-size: 12px;" type="text" id="email" placeholder="E-mail" required>
+    
+            <label for="phone"></label>
+            <input style="font-size: 12px;" type="text" id="phone" placeholder="Phone Number" required>
+           
+    <br>
+    
+            <div>
+                
+                <label for="selCourse"></label>
+                <select id="selCourse">
+                  <option value="" selected disabled> Course Type :</option>
+                </select>
+            </div>
+
+<br>
+    
+            <div>
+                <label for="selCity"></label>
+                <select id="selCity">
+                  <option value="" selected disabled> City :</option>
+            </select>
+            </div>
+    <br>
+
+
+<div style="font-weight: bolder ;font-size: 14px;">How would you like to be located: </div>
+<br>
+            <select  style="color: grey; font-size: 12px;" id="byPhone" >
+                <option value="" disabled selected>By Phone</option>
+                <option value="phone">By Phone</option>
+                <option value="email">By Email</option>
+    </select>
+<br>
+            <select style="color: grey; font-size: 12px;" id="hours" >
+                <option value="" disabled selected>Hours: 8am 10pm</option>
+                <option value="8-10">8 am - 10 am</option>
+                <option value="10-12">10 am - 12 pm</option>
+                <option value="12-14">12 pm - 2 pm</option>
+                <option value="14-16">2 pm - 4 pm</option>
+                <option value="16-18">4 pm - 6 pm</option>
+                <option value="18-20">6 pm - 8 pm</option>
+                <option value="20-22">8 pm - 10 pm</option>
+
+</select>
+<br>
+<div>
+    <label class="checkbox-label" style="display: inline-block;">
+        <input type="checkbox" id="termsCheckbox" style="vertical-align: middle;" required>
+        <span style="font-weight: lighter; color: gray; font-size: 12px;">I agree to the</span>
+        <a href="empty.html"  style="font-weight: bold; text-decoration-line: underline; font-size: 13px; color: black;">Terms and Conditions</a>.
+    </label>            
+    
+</div>
+<br>
+            <div>
+                <button style="font-size: 13px;" type="submit" onclick="validateForm(event)">Request an appointment</button>
+
+            </div>
+        </div>
+        <br>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
